@@ -25,7 +25,7 @@ PKG           := ./...
 LDFLAGS       := -s -w
 GOFLAGS       :=
 GOXFLAGS      := -parallel 8
-SRC           := $(shell find cmd pkg -type f -iname '*.go' -print)
+SRC           := $(shell find cmd galois shamir -type f -iname '*.go' -print)
 
 GIT_COMMIT    = $(shell git rev-parse HEAD)
 GIT_SHA       = $(shell git rev-parse --short HEAD)

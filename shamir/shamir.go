@@ -22,7 +22,8 @@ package shamir
 import (
 	"crypto/rand"
 	"errors"
-	"github.com/xornet-sl/gosss/pkg/galois"
+
+	"github.com/xornet-sl/gosss/galois"
 )
 
 type polynomial struct {
