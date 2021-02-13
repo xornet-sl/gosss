@@ -18,7 +18,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/xornet-sl/gosss/pkg/shamir"
+
+	"github.com/xornet-sl/gosss/shamir"
 )
 
 var version = "dev"
